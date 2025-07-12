@@ -1,0 +1,12 @@
+* {
+  font-family: "Comic Sans MS";
+  font-size: large;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
