@@ -33,7 +33,7 @@ defmodule TamnoonActionsTest.Methods.ActionMethods do
           })
       })
 
-    {%{}, state, [replace_text_action, show_action]}
+    {%{}, [replace_text_action, show_action]}
   end
 
   defmethod :activate_list_test do
@@ -63,6 +63,6 @@ defmodule TamnoonActionsTest.Methods.ActionMethods do
       value: "<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOwWi2BDg9lVsd7umH41hIneYjjnvK-4Ziw&s\">"
     })
 
-    {%{}, state, [make_bold_action, add_image_action]}
+    {%{}, [make_bold_action, add_image_action]}
   end
 end
